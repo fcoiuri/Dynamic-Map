@@ -1,5 +1,11 @@
 {
   "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "jest": true,
+    "node": true
+  },
   "settings": {
     "react": {
       "version": "detect"
